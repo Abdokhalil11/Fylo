@@ -1,0 +1,12 @@
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+.container {
+  @apply px-[15px] mx-auto xl:w-[1170px] sm:w-[750px];
+}
